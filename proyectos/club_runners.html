@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Atletismo Coruña</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Club Atletismo Coruña</h1>
+
+        <nav>
+            <a href="#inscripcion">Inscripción</a>
+            <a href="#clasificacion">Clasificación</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>Próxima carrera: Carrera Popular de A Coruña</h2>
+
+            <p>
+                Fecha: <strong>15 de septiembre de 2026</strong>
+            </p>
+
+            <p>
+                El próximo mes celebraremos nuestra carrera popular por las
+                calles de A Coruña. La prueba está abierta a corredores de
+                todas las categorías y tendrá un recorrido de 10 kilómetros.
+            </p>
+
+            <img src="cartel-carrera.jpg"
+                 alt="Cartel de la Carrera Popular de A Coruña">
+
+        </article>
+
+        <section id="clasificacion">
+            <h2>Clasificación de la última carrera</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Corredor</th>
+                        <th>Tiempo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Marcos López</td>
+                        <td>35:42</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Laura Fernández</td>
+                        <td>37:15</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>David Rodríguez</td>
+                        <td>38:27</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="inscripcion">
+            <h2>Inscripción en la próxima carrera</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecciona una categoría</option>
+                        <option value="juvenil">Juvenil</option>
+                        <option value="senior">Senior</option>
+                        <option value="veterano">Veterano</option>
+                    </select>
+                </p>
+
+                <p>
+                    <button type="submit">Inscribirme</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Club Atletismo Coruña</p>
+    </footer>
+
+</body>
+
+</html>
